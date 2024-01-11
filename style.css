@@ -3,13 +3,11 @@
     font-style: italic;
     src: url(./Aileron-Italic.otf);
 }
-
 @font-face {
     font-family: aileron;
     font-weight: 100;
     src: url(./Aileron-Regular.otf);
 }
-
 @font-face {
     font-family: aileron;
     font-weight: 200;
@@ -21,7 +19,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
     width: 100%;
@@ -29,6 +26,11 @@ html, body {
     align-items: center;
     background-color: #D8DA3D;
 }
+
+
+/* General styles */
+
+
 p, h1 {
     color: #80007E;
 }
@@ -46,6 +48,11 @@ p{
     display: flex;
     align-items: center;
 }
+
+
+/* Left section */
+
+
 #part1{
     height: 100%;
     width: 18%;
@@ -73,6 +80,10 @@ p{
     font-size: 1.1rem;
     font-weight: 100;
 }
+
+
+/* Right section */
+
 
 #part2{
     height: 100%;
